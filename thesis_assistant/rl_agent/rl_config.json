@@ -1,0 +1,37 @@
+{
+  "state_variables": [
+    "embedding_drift",
+    "ai_usage",
+    "ethical_flags",
+    "advisor_feedback",
+    "timestep"
+  ],
+  "actions": [
+    "Allow prompt",
+    "Suggest reflection",
+    "Ethical warning",
+    "Suggest rewriting",
+    "Advisor feedback reminder",
+    "Disable AI feature"
+  ],
+  "reward_config": {
+    "user_revised": 2,
+    "ai_violation": -3,
+    "advisor_positive": 3,
+    "rewrite_accepted": 1,
+    "milestone_completed": 5,
+    "hallucination_detected": -2
+  },
+  "action_effects": {
+    "1": {
+      "ai_usage": -0.05,
+      "embedding_drift": -0.05
+    },
+    "3": {
+      "ethical_flags": -0.1
+    },
+    "4": {
+      "advisor_feedback": 0.1
+    }
+  }
+}

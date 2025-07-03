@@ -1,0 +1,38 @@
+{
+  "Ethical": {
+    "description": "Content that fosters intellectual integrity, human flourishing, and constructive knowledge exchange. Such text reflects responsible authorship, encourages mutual respect, and avoids manipulation. It aligns with principles such as beneficence (doing good), non-maleficence (avoiding harm), fairness, and epistemic transparency.",
+    "criteria": [
+      "Provides accurate, verifiable, and relevant information aligned with scholarly standards.",
+      "Uses respectful, inclusive, and non-discriminatory language.",
+      "Supports critical thinking, learning, or responsible decision-making.",
+      "Avoids misleading, manipulative, or emotionally exploitative tactics.",
+      "Respects individual dignity, privacy, and intellectual boundaries.",
+      "Reflects awareness of social and cultural sensitivity.",
+      "Complies with academic integrity and relevant institutional or legal standards."
+    ]
+  },
+ "Unethical": {
+  "description": "Content that compromises the ethical standards of academic inquiry or professional integrity. This includes deceptive, harmful, discriminatory, or exploitative language, as well as content that violates trust, privacy, or academic conventions. Such text undermines the foundations of truth-seeking, fairness, and scholarly responsibility.",
+  "criteria": [
+    "Presents false or misleading information as factual, including fabricated data or citations.",
+    "Engages in plagiarism, ghostwriting, or passing off others’ intellectual work as one’s own.",
+    "Includes discriminatory, dehumanizing, or hate-based content targeting individuals or groups.",
+    "Encourages unlawful, unethical, or unsafe actions (e.g. academic fraud, cheating, sabotage).",
+    "Violates privacy, confidentiality, or informed consent norms (e.g. doxxing, personal disclosures).",
+    "Propagates harmful stereotypes or biases without critical context.",
+    "Uses manipulative or coercive language to influence readers unjustly.",
+    "Depicts or encourages self-harm, hopelessness, or fatalism without appropriate framing or care."
+  ]
+},
+  "Neutral": {
+  "description": "Content that does not introduce significant ethical considerations in itself. Typically includes technical, descriptive, or general-purpose text that neither promotes harm nor explicitly advances ethical values. It may include factual reporting, personal reflection, or routine academic language.",
+  "criteria": [
+    "States objective facts, established knowledge, or procedural descriptions without judgment.",
+    "Engages in conversational or emotionally neutral expression (e.g., greetings, acknowledgments).",
+    "Shares personal experiences or subjective impressions that are ethically non-controversial.",
+    "Provides general academic guidance without controversial claims (e.g., how to format citations).",
+    "Describes concepts, events, or research methods without moral or ideological framing.",
+    "Does not promote ethical ideals (e.g., fairness, justice) but also does not subvert them.",
+    "Does not mislead, harm, or manipulate — but also does not affirmatively benefit others."
+  ]
+}
